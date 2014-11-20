@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["uceda73@gmail.com"]
   spec.summary       = %q{Track your notes with Pivotal tracker}
   spec.description   = %q{This gem provides the feature to track your notes with pivotal tracker}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/AlfonsoUceda/note_tracker"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
