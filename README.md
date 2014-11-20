@@ -1,6 +1,6 @@
-# TrackNoter
+# NoteTracker
 
-TODO: Write a gem description
+This gem provides the feature to track your notes with pivotal tracker
 
 ## Installation
 
