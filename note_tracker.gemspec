@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'track_noter/version'
+require 'note_tracker/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "track_noter"
-  spec.version       = TrackNoter::VERSION
+  spec.name          = "note_tracker"
+  spec.version       = NoteTracker::VERSION
   spec.authors       = ["Alfonso Uceda Pompa"]
   spec.email         = ["uceda73@gmail.com"]
-  spec.summary       = %q{Track your TODOs with Pivotal tracker}
-  spec.description   = %q{This gem provides the feature to track your TODOs or custom tags with pivotal tracker}
+  spec.summary       = %q{Track your notes with Pivotal tracker}
+  spec.description   = %q{This gem provides the feature to track your notes with pivotal tracker}
   spec.homepage      = ""
   spec.license       = "MIT"
 

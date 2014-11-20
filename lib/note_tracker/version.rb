@@ -1,3 +1,3 @@
-module TrackNoter
+module NoteTracker
   VERSION = "0.0.1"
 end
