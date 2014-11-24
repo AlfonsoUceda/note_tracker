@@ -6,7 +6,7 @@ module NoteTracker
     def initialize(token, project, options = {})
       @token = token
       @project = project
-      @tags_to_track = options.fetch(:tags) { "OPTIMIZE|FIXME|TODO" }
+      @tags_to_track = options[:tags]
       @directories_to_track = options.fetch(:directories) { %w(.) }
     end
 

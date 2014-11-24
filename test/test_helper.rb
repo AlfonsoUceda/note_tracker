@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'minitest/byebug' if ENV['DEBUG']
 require 'minitest/autorun'
+require 'note_tracker'
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 

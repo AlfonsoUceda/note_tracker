@@ -27,8 +27,8 @@ module NoteTracker
 
       attr_reader :tag
 
-      def initialize(tag)
-        @tag = tag
+      def initialize(tag = nil)
+        @tag = tag || "OPTIMIZE|FIXME|TODO"
       end
 
       # Returns a hash that maps filenames under +dirs+ (recursively) to arrays
