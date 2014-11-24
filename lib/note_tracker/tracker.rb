@@ -45,7 +45,7 @@ module NoteTracker
     end
 
     def results_annotation_extractor
-      SourceAnnotationExtractor.new(@tags_to_track).find(@directories_to_track)
+      Extractor::Source.new(@tags_to_track).find(@directories_to_track)
     end
   end
 end
