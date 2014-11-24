@@ -3,7 +3,6 @@
 [![Gem Version](https://badge.fury.io/rb/note_tracker.svg)](http://badge.fury.io/rb/note_tracker)
 [![Build Status](https://travis-ci.org/AlfonsoUceda/note_tracker.svg)](https://travis-ci.org/AlfonsoUceda/note_tracker)
 [![Code Climate](https://codeclimate.com/github/AlfonsoUceda/note_tracker/badges/gpa.svg)](https://codeclimate.com/github/AlfonsoUceda/note_tracker)
-[![Code Climate](https://codeclimate.com/github/AlfonsoUceda/note_tracker/badges/gpa.svg)](https://codeclimate.com/github/AlfonsoUceda/note_tracker)
 [![Dependency Status](https://gemnasium.com/AlfonsoUceda/note_tracker.svg)](https://gemnasium.com/AlfonsoUceda/note_tracker)
 [![Inline docs](http://inch-ci.org/github/alfonsouceda/note_tracker.svg?branch=master)](http://inch-ci.org/github/alfonsouceda/note_tracker)
 
