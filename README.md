@@ -27,7 +27,30 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The gem read your files and create pivotal stories in your project.
+
+If you have a TODO string like:
+
+```
+# TODO: Build new phase
+```
+
+You'll have:
+
+```
+# [#STORY_ID] TODO: Build new phase
+```
+
+Use
+
+```
+note_tracker = NoteTracker::Client.new PIVOTAL_TRACKER_API, PIVOTAL_PROJECT_NUMBER
+note_tracker.track tags: TAGS_STRING, directories: DIRECTORIES_ARRAY
+```
+
+TAGS_STRING can be "FIXME|TODO" for example. "OPTIMIZE|FIXME|TODO" is default.
+DIRECTORIES_ARRAY can be %w(/home/your_home/my_project)
+
 
 ## Contributing
 
